@@ -1,0 +1,233 @@
+<html>
+
+ <head>
+     <style>
+            
+           body{
+                   background-color : lightblue; 
+               }
+
+            td{
+                    font-size : 20px;
+               }
+      </style>
+ </head>
+
+     <form id = "StudentRegistrationForm">
+        
+      <table align = "center" cellspacing = "20">
+        
+       <tr>
+         <td colspan = "2" align = "center" style = "font-size : 30"; > STUDENT REGISTRATION FORM </td>
+       </tr>
+
+       <tr>
+         <td>  STUDENT NAME :  </td>
+         <td>  
+               <input type = "text"  placeholder = "First name" size = "9"  name = "Name" />
+               <input type = "text"  placeholder = "Last name" size = "9"/  name = "Name" />
+         </td>  
+       </tr> 
+       
+       <tr>
+         <td> ROLL NO : </td>
+         <td> <input type = "text"  size = "24" name = "ROLLNO"/>  </td>   
+       </tr>
+       
+       <tr>
+          <td> DOB : </td>
+          <td>
+              <input type = "text" placeholder = "DD" size = "2" name = "DD" /> -
+              <input type - "text" placeholder = "MM" size = "2" name = "MM" /> -
+              <input typr = "text" placeholder = "YY" size = "2" nmae = "YY" />
+
+                    <i>(DD-MM-YY)</i>
+          </td>
+                
+       </tr>
+
+       <tr>
+           <td> GENDER : </td>
+           <td> 
+               <input type = "radio" name = "g1" value = "Male" /> Male 
+               <input type = "radio" name = "g1" value = "Female" /> Female
+           </td>
+       </tr>
+
+       <tr>
+         <td>  DEPARTMENT :</td>
+         <td> 
+              <select name = "DEPARTMENT" > 
+              
+              <option value = Not Selected > Select course </option>
+
+              <option value = "cse">    CSE     </option>
+              <option value = "ECE">    ECE     </option>
+              <option value = "EEE">    EEE     </option>
+              <option value = "CIVIL">  CIVIL    </option>
+              <option value = "MECH">   MECH     </option>
+              <option value = "IT">      IT      </option>
+              <option value = "AIDS">   AIDS     </option>
+
+              </select>
+              
+         </td>
+      </tr>
+       
+      <tr>
+         <td> STUDENT MAIL ID : </td>
+         <td> <input type = "text" size = "24" name = "EMAIL_ID" /> </td>
+      </tr>
+
+      <tr>
+        <td> MOBILE NO : </td>
+        <td> <input type = "text"  size = "24" name = "MOBILE_NO" /> </td>
+      </tr>
+      
+      <tr>
+        <td> AADHAR NO : </td>
+        <td> <input type = "text" size = "24" name = "AADHAR_NO" /> </td>
+      </tr>
+
+      <tr>
+         <td> FATHER NAME : </td>
+         <td> <input type = "text" size = "24" name = "FATHERNAME" /> </td>
+      </tr>
+      
+      <tr>
+         <td> MOTHER NAME : </td>
+         <td> <input type = "text" size = "24"  name = "MOTHERNAME" /> </td>
+      </tr>
+      
+      <tr>
+        <td> AAPAAR ID : </td>
+        <td> <input type = "text" size = "24" name = "AAPAAR_ID" /> </td>
+      </tr>
+      
+      <tr>
+        <td> ADDITIONAL COURSES : </td>
+        <td>
+            <input type = "checkbox"   value = "python" /> python 
+            <input type = "checkbox"  value = "java" /> java
+            <input type = "checkbox"  value = "c++" /> c++   
+        </td> 
+      </tr>
+      
+      <tr>
+        <td></td>
+        <td>
+            <input type = "checkbox"  value = "IOT" /> IOT
+            <input type = "checkbox"  value = "QuantumComputing" /> Quantam Computing
+        </td>
+      </tr>
+     
+      <tr>
+        <td> SSC : </td>
+        <td> 
+            <input type = "text" placeholder = "Marks(/600)" size = "6" name = "SSCMARKS" />
+            <input type = "text" placeholder = "Percentage(100%)" size = "12" name = "SSCPERCENTAGE"  />
+        </td>
+      </tr> 
+
+       <tr>
+        <td> INTER : </td>
+        <td> 
+            <input type = "text" placeholder = "Marks(/1000)" size = "6" name = "INTERMARKS" />
+            <input type = "text" placeholder = "Percentage(100%)" size = "12" name ="INTERPRCENTAGE"  />
+        </td>
+      </tr> 
+      
+      <tr>
+        <td> EAPCET RANK : </td>
+        <td> <input type = "text"  size = "24" name = "EAPCETRANK" placeholder = "0000000" </td>
+      </tr>
+
+      <tr>
+        <td> JEE MAINS RANK : </td>
+        <td> <input type = "text"  size = "24" name = "JEERANK" placeholder = "0000000" </td>
+      </tr>
+
+      <tr>
+        <td> ADDRESS : </td>
+        <td> <textarea rows = "5" cols = "24" placeholder = "Enter Address here" name = "AADRESS" value = "message" > </textarea> </td>
+     </tr>
+     
+     <tr>
+       <td> AADRESS PROOF : </td> 
+       <td>
+         <input type = "file" name = "AADRESSPROOF" /> 
+         <input type = "submit" value = "Upload" />
+       </td>
+     </tr>
+
+     <tr>
+       <td></td>
+       <td>
+          <p style = "font-size : 15px";> file must be in jpj format (50-110 mb) </p>
+       </td>
+     </tr>
+      
+     <tr>
+       <td> PHOTO : </td>
+       <td> 
+           <input type = "file"  name = "PHOTO"/> 
+           <input type = "submit" value = "Upload" />
+      </td>
+     </tr>
+
+     <tr>
+       <td></td>
+       <td>
+          <p style = "font-size : 15px";> file must be in pdf format (50-110 mb) </p>
+       </td>
+     </tr>
+     
+     <tr>
+       <td> SSC MARK LIST : </td>
+       <td> 
+          <input type = "file" name = "SSE_MARK_LIST" />
+          <input type = "submit" value = "Upload" />
+       </td>
+     </tr>
+
+     <tr>
+       <td> INTER MARK LIST : </td>
+       <td> 
+          <input type = "file" name = "INTER_MARK_LIST" />
+          <input type = "submit" value = "Upload" />
+       </td>
+     </tr>
+
+     <tr>
+       <td> EAPCET RANK CARD : </td>
+       <td> 
+          <input type = "file" name = "EAPCET_RANK_CARD" />
+          <input type = "submit" value = "Upload" />
+       </td>
+     </tr>
+      
+     <tr>
+       <td> JEE RANK CARD : </td>
+       <td> 
+          <input type = "file" name = "JEE_RANK_CARD" />
+          <input type = "submit" value = "Upload" />
+       </td>
+     </tr>
+
+     <tr>  </tr>
+     
+     <tr>   </tr>
+
+     <tr>
+        <td colspan = "2" align = "center" style = "font-size : 30"; > <input type = "submit" value = "Register" /> </td>
+     </tr>
+  
+   </table>
+
+ </form>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+             <script src="script.js"></script>
+
+
+</html>
